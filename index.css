@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css wid navbar */
+header{
+     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url(security.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center; /* Ensures the background is centered */
+     height: 80vh; /* Full viewport height */
+     width: 100%; /* Full viewport width */
+ 
+}
+a{
+     text-decoration: none;
+     color: white;
+     
+}
+nav{
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+  
+}
+ul{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    /* align items center is the property to used stuck element in vertically align in middle side  */
+    align-items: center;
+}
+p{
+    color: white;
+}
+.logo{
+     font-size: 1.4em;
+     font-weight: 700;
+}
+.navigation-links .help{
+     font-size: 1.2em;
+}
+.right-con{
+     padding: 70px;
+     align-items: flex-end !important;
+     justify-content: right;
+     line-height: 30px;
+ 
+}
+.right-con p{
+    animation-delay: 0.5s;
+}
+/* .right-div{
+    justify-content: space-between;
+} */
+.right-con h1{
+    font-size: 3.1em;
+    font-weight: 800;
+  
+}
+.right-div {
+    position: absolute; /* Position relative to the closest positioned parent */
+    top: 50%; /* Center vertically */
+    right: 0; /* Align to the right edge */
+    transform: translateY(-50%); /* Adjust vertical centering */
+    width: 40%; /* Optional: Set a width */
+    padding: 5px; /* Optional: Add padding for spacing */
+    color: white; /* Text color */
+    text-align: left; /* Align text to the left inside the div */
+}
+.contact-de{
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+ 
+}
+.dd{
+    margin-left: 10px;
+    animation-delay: 0.5s;
+}
+.dd a{
+    animation-delay: 0.5s;
+}
+.p{
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+.contact-de i{
+    animation-delay: 0.5s;
+}
+
+/* second section */
+.hero-banner{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+.hero-banner p {
+    color: black;
+}
+.hero-banner a{
+    color: white;
+  
+}
+.btn{
+     padding: 15px;
+     background-image: linear-gradient(red, black);
+     border-radius: 30px;
+     border-top-right-radius: 0;
+}
+.right{
+    justify-content: space-evenly;
+    background-color: red;
+    color: white;
+    padding-left: 60px;
+    padding-top: 40px;
+    width: 50%;
+    margin-right: 0;
+  
+ 
+}
+.right p{
+    color: white;
+}
+.left{
+     width: 50%;
+     padding: 30px;
+     margin-right: 20px;
+     padding-left: 40px;
+}
+ section{
+    width:100%;
+ }
+  .col1 .col2{
+    padding: 10px;
+    min-width: 50%;
+
+ } 
+ .row h2{
+    font-weight: 800;
+    font-size: 2.2em;
+ }
+.left h2{
+     font-weight: 600;
+     line-height: 50px;
+     line-break: auto;
+}
+.left p{
+     line-height: 30px;
+}
+
+/* amination */
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    
+}
+.moveup{
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* our section */
+
+.services{
+    padding: 60px;
+
+}
+.services p{
+    color: black;
+}
+.service{
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+}
+.head{
+    padding: 10px;
+}
+.para{
+    line-height: 30px;
+}
+.card-title{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* section four */
+.section-four{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),url("bgi-img.jpg");
+    color: white;
+    padding: 30px;
+}
+.section-four .card-title{
+    color: white;
+    text-align: center;
+}
+.c .card{
+    background: transparent;
+    border: 0.1px solid rgb(51, 46, 46);
+    padding: 20px;
+    text-align: center;
+}
+
+/* section five */
+
+ .col3 p{
+    color: black;
+}
+.row3{
+    display: flex;
+}
+.sec-5{
+    padding: 50px;
+}
+.testi{
+    font-weight: 600;
+    
+}
+.view{
+    padding: 20px;
+}
+.col3{
+    padding: 20px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-right: 10px;
+   
+}
+input{
+    width: 25vw;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+.sec-6{
+    background-color: aliceblue;
+}
+
+/* to change bullet color */
+li::marker{
+    color: red;
+    list-style-type: disc;
+}
+
+/* footer */
+
+    .section {
+        background: linear-gradient(to top, rgb(57, 10, 10), black);
+    }
+    .sec-7{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px;
+    }
+    .foo{
+       margin-top: 30px;
+    }
+    
+
